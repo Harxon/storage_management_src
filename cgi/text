@@ -1,0 +1,64 @@
+./cgic.c:15:		dout = fopen("/home/boutell/public_html/debug", "a"); \
+./cgic.c:523:			outf = fopen(tfileName, "w+b");
+./cgic.c:1315:	cfp->in = fopen(e->tfileName, "rb");
+./cgic.c:1880:	out = fopen(filename, "wb");
+./cgic.c:2035:	in = fopen(filename, "rb");
+./cgic.c:2157:			out = fopen(tfileName, "w+b");
+./goods_1_m0_sql.c:52:	recode = sqlite3_open(SQLITE_OPEN, &db);
+./goods_2_m0_sql.c:52:	recode = sqlite3_open(SQLITE_OPEN, &db);
+./include/sqlite3.h:220:** pointer as an object.  The [sqlite3_open()], [sqlite3_open16()], and
+./include/sqlite3.h:285:** from [sqlite3_open()], [sqlite3_open16()], or
+./include/sqlite3.h:777:** the flags argument to [sqlite3_open_v2()].  Or if [sqlite3_open()]
+./include/sqlite3.h:820:** analogous to the O_EXCL and O_CREAT flags of the POSIX open()
+./include/sqlite3.h:1002:** invoke sqlite3_initialize() directly.  For example, [sqlite3_open()]
+./include/sqlite3.h:1004:** initialized when [sqlite3_open()] is called if it has not be initialized
+./include/sqlite3.h:1082:** the database connection is created using [sqlite3_open()],
+./include/sqlite3.h:2252:** sqlite3_open() and sqlite3_open_v2() and as UTF-16 in the native byte
+./include/sqlite3.h:2261:** of the sqlite3_open() routines.
+./include/sqlite3.h:2264:** sqlite3_open() or sqlite3_open_v2() is called and
+./include/sqlite3.h:2271:** The sqlite3_open_v2() interface works like sqlite3_open()
+./include/sqlite3.h:2292:** sqlite3_open() and sqlite3_open16().</dd>)^
+./include/sqlite3.h:2331:** of sqlite3_open() and sqlite3_open_v2() must be UTF-8, not whatever
+./include/sqlite3.h:2334:** sqlite3_open() or sqlite3_open_v2().
+./include/sqlite3.h:2336:SQLITE_API int sqlite3_open(
+./include/sqlite3.h:2526:** prior successful call to [sqlite3_open()], [sqlite3_open_v2()] or
+./include/sqlite3.h:3909:** called right after sqlite3_open().
+./include/sqlite3.h:4164:** calls to [sqlite3_open()], [sqlite3_open_v2()], and [sqlite3_open16()].
+./include/sqlite3.h:4403:** xEntryPoint() returns an error, the [sqlite3_open()], [sqlite3_open16()],
+./include/sqlite3.h:4707:** ^Objects of this type are created by [sqlite3_blob_open()]
+./include/sqlite3.h:4771:SQLITE_API int sqlite3_blob_open(
+./include/sqlite3.h:4801:** by a failed call to [sqlite3_blob_open()]) is a harmless no-op.
+./include/sqlite3.h:4814:** by a prior successful call to [sqlite3_blob_open()] and which has not
+./include/sqlite3.h:4840:** by a prior successful call to [sqlite3_blob_open()] and which has not
+./include/sqlite3.h:4856:** writing (the flags parameter to [sqlite3_blob_open()] was zero),
+./include/sqlite3.h:4878:** by a prior successful call to [sqlite3_blob_open()] and which has not
+./lib/libsqlite3.la:7:# The name that we can dlopen(3).
+./login.c:28:	if(sqlite3_open(SQLITE_LOGIN, &db) != SQLITE_OK)
+./setting1.c:43:	if (sqlite3_open(SQLITE_WAREHOUSE, &db) != SQLITE_OK)
+./setting2.c:43:	if (sqlite3_open(SQLITE_WAREHOUSE,&db) != SQLITE_OK)
+./sqlite3.h:220:** pointer as an object.  The [sqlite3_open()], [sqlite3_open16()], and
+./sqlite3.h:285:** from [sqlite3_open()], [sqlite3_open16()], or
+./sqlite3.h:777:** the flags argument to [sqlite3_open_v2()].  Or if [sqlite3_open()]
+./sqlite3.h:820:** analogous to the O_EXCL and O_CREAT flags of the POSIX open()
+./sqlite3.h:1002:** invoke sqlite3_initialize() directly.  For example, [sqlite3_open()]
+./sqlite3.h:1004:** initialized when [sqlite3_open()] is called if it has not be initialized
+./sqlite3.h:1082:** the database connection is created using [sqlite3_open()],
+./sqlite3.h:2252:** sqlite3_open() and sqlite3_open_v2() and as UTF-16 in the native byte
+./sqlite3.h:2261:** of the sqlite3_open() routines.
+./sqlite3.h:2264:** sqlite3_open() or sqlite3_open_v2() is called and
+./sqlite3.h:2271:** The sqlite3_open_v2() interface works like sqlite3_open()
+./sqlite3.h:2292:** sqlite3_open() and sqlite3_open16().</dd>)^
+./sqlite3.h:2331:** of sqlite3_open() and sqlite3_open_v2() must be UTF-8, not whatever
+./sqlite3.h:2334:** sqlite3_open() or sqlite3_open_v2().
+./sqlite3.h:2336:SQLITE_API int sqlite3_open(
+./sqlite3.h:2526:** prior successful call to [sqlite3_open()], [sqlite3_open_v2()] or
+./sqlite3.h:3909:** called right after sqlite3_open().
+./sqlite3.h:4164:** calls to [sqlite3_open()], [sqlite3_open_v2()], and [sqlite3_open16()].
+./sqlite3.h:4403:** xEntryPoint() returns an error, the [sqlite3_open()], [sqlite3_open16()],
+./sqlite3.h:4707:** ^Objects of this type are created by [sqlite3_blob_open()]
+./sqlite3.h:4771:SQLITE_API int sqlite3_blob_open(
+./sqlite3.h:4801:** by a failed call to [sqlite3_blob_open()]) is a harmless no-op.
+./sqlite3.h:4814:** by a prior successful call to [sqlite3_blob_open()] and which has not
+./sqlite3.h:4840:** by a prior successful call to [sqlite3_blob_open()] and which has not
+./sqlite3.h:4856:** writing (the flags parameter to [sqlite3_blob_open()] was zero),
+./sqlite3.h:4878:** by a prior successful call to [sqlite3_blob_open()] and which has not
